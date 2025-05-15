@@ -1,0 +1,436 @@
+
+body{
+    margin: 0px;
+    background-color: #fff2e3;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(151, 68, 59);
+}
+.search{
+    all: unset;
+    max-width: 98%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 13px 15px;
+    border-radius: 10px;
+    background: rgb(228, 228, 228);
+}
+.search input{
+    all: unset;
+    width: 95%;
+    display: flex;
+    font-size: 16px;
+    font-family: poppins;
+    color: #747956;
+    background: transparent;
+    border: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.search-icon{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    color: #747956;
+    background: transparent;
+    margin: 10px;
+    width: 50px;
+}
+.search input::placeholder{
+    color: #8C916C;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+    font-family: tagesschrift;
+}
+main h1{
+    color: black;
+    font-family: sacramento;
+    font-size: 45px;
+    margin: 50px 0px 0px 20px;
+    word-wrap: break-word;
+}
+.main-container h1{
+    color: #fff;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: dancing script;
+}
+.footer h2{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: rgb(63, 62, 62);
+}
+.navdiv i{
+    color: #03626d;
+    font-size: 23px;
+}
+a{
+    text-decoration: none;
+}
+.navdiv a{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Poppins;
+    color: black;
+}
+.container a{
+    color: #fff;
+}
+.main-container a{
+    color: black;
+}
+.container button{
+    all: unset;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    color: #fff;
+}
+.main-container button{
+    all: unset;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+}
+.logo p{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    font-weight: lighter;
+    font-family: tagesschrift;
+    font-size: 20px;
+}
+.main-container p{
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding: 15px;
+    line-height: 20px;
+}
+header p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: oswald;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+    word-wrap: break-word;
+}
+.main-container span{
+    display: grid;
+    line-height: 20px;
+    grid-template-rows: 2fr 2fr;
+}
+.navbar .logo{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: poppins;
+    color: beige;
+}
+.navdiv{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    width: 100%;
+    height: 60px;
+}
+.navdiv :hover{
+    transition: 1s ease;
+    transform: translate(5px);
+}
+ul{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -20px;
+    gap: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: poppins;
+    list-style-type: none;
+}
+.gallery{
+    background-color: #03626d;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    padding: 8px;
+    color: beige;
+}
+.container .gallery :hover{
+    transform: none;
+}
+.container :hover{
+    background-color: #A3664E;
+    color: #fff;
+    transition: 0.8s ease;
+    transform: translateY(20px);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    flex-wrap: wrap;
+}
+.main-container{
+    display: flex;
+    justify-self: center;
+    max-width: 100%;
+    margin: 25px 10px;
+    background-color: #3d0101;
+    border: 1px solid #A3664E;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+.content{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+    text-align: center;
+}
+.content :hover{
+    transition: 0.5s ease-in;
+    transform: translateX(30px);
+}
+.gallery-ex :hover{
+    transform: none;
+}
+.gallery-ex{
+    background-color: beige;
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 50px 10px 50px;
+}
+
+.icon2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin: 30px 30px 0px 30px;
+}
+
+.list{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+    text-align: center;
+}
+.list :hover{
+    transition: 0.5s ease-in;
+    transform: translateY(10px);
+    background-color: #A3664E;
+}
+.in-list :hover{
+    transform: none;
+}
+.in-list{
+    background-color: #03626d;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    color: #fff;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    max-width: 100%;
+    background: linear-gradient(365deg, #747956, #A3664E );
+    padding: 30px 20px;
+    border-radius: 8px
+}
+.container2 form .user-d{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-self: center;
+    gap: 30px;
+    margin: 20px 8px 12px 0px;
+}
+.container2 .F-input{
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+.container2 form .text{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 40px;
+    margin-top: 10px;
+}
+.container2 .user-d .F-input{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 10px;
+}
+.user-d .F-input input{
+    all: unset;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-right-width: 2px;
+    border-bottom-width: 3px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+.container2 .details{
+    display: block;
+    font-weight: 500px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.user-d .F-input input:focus,
+.user-d .F-input input:valid{
+    border-color: #069cad;
+}
+#S{
+    display: none;
+}
+#PC{
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 500px;
+    height: 35px;
+    width: 150px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: #fff;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+}
+.text .F-input textarea{
+    all: unset;
+    height: 85px;
+    width: 300px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-bottom-width: 3px;
+    border-right-width: 2px;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+}
+.text .F-input textarea::placeholder{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    font-family: ' sans-serif, poppins';
+}
+.user-d .F-input input::placeholder{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-family: ' sans-serif, poppins';
+}
+.text textarea:focus,
+.text textarea:valid{
+    border-color: #069cad;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button input{
+    all: unset;
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    color: #fff;
+}
+footer{
+    background-color: #8C916C;
+    height: max-content;
+}
+.footer .icon2{
+    display: flex;
+    justify-self: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.footer p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    color: rgb(98, 97, 97);
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.footer .a5{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.footer .a1 :hover{
+    color: purple;
+    transition: 0.5s ease;
+}
+.footer .a2 :hover{
+    color: rgb(5, 97, 162);
+    transition: 0.5s ease;
+}
+.footer .a3 :hover{
+    color: #fff;
+    transition: 0.5s ease;
+}
+.footer .a4 :hover{
+    color: #069cad;
+    transition: 0.5s ease;
+}
+.footer .a5 :hover{
+    color: #8d6098;
+    transition: 0.5s ease;
+}
