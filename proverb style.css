@@ -44,6 +44,9 @@ body{
 .search input::placeholder{
     color: #8C916C;
 }
+header{
+    margin-top: 20px;
+}
 header h1{
     display: flex;
     justify-content: center;
