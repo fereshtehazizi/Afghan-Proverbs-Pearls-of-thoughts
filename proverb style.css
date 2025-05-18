@@ -318,7 +318,7 @@ ul{
 
 .user-d .F-input input:focus,
 .user-d .F-input input:valid{
-    border-color: #069cad;
+    border-color: black;
 }
 #S{
     display: none;
@@ -365,7 +365,7 @@ ul{
 }
 .text textarea:focus,
 .text textarea:valid{
-    border-color: #069cad;
+    border-color: black;
 }
 .button{
     display: flex;
